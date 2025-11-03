@@ -31,7 +31,7 @@ jobs:
 
       # 4. Build and export Next.js app
       - name: Build Next.js app
-        run: npm run build && npm run export
+        run: npm run build
 
       # 5. Configure AWS credentials
       - name: Configure AWS credentials
